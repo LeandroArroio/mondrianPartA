@@ -4,20 +4,17 @@ function setup() {
 }
 
 function draw() {
-  background(255); //
+  background(255); 
   
   let white = color(245, 245, 240);
   let red = color(238, 36, 0);      
   let yellow = color(253, 219, 0);  
   let blue = color(32, 27, 113);    
 
-  // Aqui fiz os blocos, e usei o noStroke para não desenhar a borda de cada bloco.
-  // Fill é usado para preencher a cor do bloco, e rect é para construir o bloco e a posição.
   noStroke(); 
   
   fill(red);
   rect(0, 0, 360, 320); 
-  // Afastado 0px da esquerda, afastado 0px do teto, com 360px de largura e 320px de altura
   
   fill(white);
   rect(360, 0, 440, 320);
