@@ -1,3 +1,8 @@
-# Título
+# Memória Descritiva
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod convallis magna ut pulvinar. Nulla iaculis, metus in semper vestibulum, lorem quam fringilla tellus, eu varius leo dui ac neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus ultrices ante, ut suscipit est euismod ut. Duis sit amet dictum turpis. Fusce non turpis porta nisi iaculis eleifend. Donec eget lobortis risus. Proin molestie tincidunt elit. Donec a enim ac neque tristique molestie. Sed nibh massa, dignissim at ipsum non, volutpat aliquam erat. Sed tincidunt quis urna a semper. Phasellus leo orci, imperdiet et ullamcorper non, finibus eu nunc. Duis vel ligula ac orci tincidunt aliquam. Suspendisse potenti. Sed congue lectus at aliquet cursus. 
+No quadro Mondrian comecei por fazer abrir o function setup para poder fazer os canvas, ou seja, o tamanho da imagem 800x800px e utilizei o noLoop para não ficar a desenhar tantas vezes. 
+
+No Setup draw usei a cor para o background e o let para alterar a qualquer momento a cor caso queira mudar. O noStroke para não desenhar a borda de cada bloco. O Fill é usado para preencher a cor do bloco, e rect é para construir o bloco e a sua posição. (Exemplo: Afastado 0px da esquerda, afastado 0px do teto, com 0px de largura e 0px de altura).
+
+No fim fiz as linhas com stroke, strokeweight para a espessura e strokecap para a forma da linha, para conseguir fazer as linhas horizontais e verticais.
+
